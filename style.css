@@ -1,0 +1,187 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+   
+}
+
+body {
+     height: 100%;
+    width: 100%;
+    background-color: #0f091a;
+    position: relative;
+}
+
+
+
+
+
+#nav {
+    height : 4rem;
+    width : 100%;
+    background-color: #030206;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+
+}
+
+#name {
+     font-family: "Edu AU VIC WA NT Hand", cursive;
+
+}
+
+#navigator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#intro-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+#tittle {
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+#image {
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    width: 100vw;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#about {
+    
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+#seft-photo-name {
+    height: 8rem;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#my-radius-img {
+    height: 100%;
+    width: 15%;
+    border-radius: 50%;
+    background-image: url("./resourses/Rudra_Sarkar_Photo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+hr{
+    width: 15rem;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#education {
+    height: 70vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#education-description {
+    height: 50vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+
+.education-section{
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(99, 50, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2rem;
+    border-radius: 5%;
+    gap: .5rem;
+    flex-basis: 1;
+
+}
+
+
+
+#skills {
+    height: 100vh;
+    width: 100%;
+    
+}
+#skills-section {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+#skills-section img {
+    height: 170px;
+    width: 100%;
+}
+.skill-item {
+    height: 200px;
+    width: 200px;
+    background-color: blue ;
+}
