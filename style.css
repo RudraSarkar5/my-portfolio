@@ -106,7 +106,7 @@ body {
     padding: 8% 0%;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 45px;
 }
 
 #intro-section {
@@ -383,7 +383,10 @@ hr{
 }
 
 #more-project a>h1:nth-of-type(1) {
-    color: rgb(188, 188, 20);
+    background-color: rgb(188, 188, 20);
+    padding: 5px 15px;
+    border-radius: 5%;
+    color: blue;
     
 }
 
@@ -421,9 +424,16 @@ a {
     
 }
 
+#contact-details a {
+    padding: 5px 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+}
+
 .contact-item {
-    height: 10rem;
-    width: 10rem;
+    height: 15rem;
+    width: 12rem;
     background-color: rgb(13, 14, 28);
     display: flex;
     justify-content: center;
