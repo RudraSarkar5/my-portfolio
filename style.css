@@ -480,7 +480,7 @@ a {
     height: 20% ;
 }
 
-footer {
+#footer {
     height: 50px;
     width: 100vw;
     display: flex;
