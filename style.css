@@ -471,8 +471,8 @@ a {
 }
 
 .contact-item {
-    height: 15rem;
-    width: 12rem;
+    height: 12rem;
+    width: 9rem;
     background-color: rgb(13, 14, 28);
     display: flex;
     justify-content: center;
